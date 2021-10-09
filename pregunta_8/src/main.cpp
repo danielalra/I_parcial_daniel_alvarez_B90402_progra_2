@@ -9,7 +9,7 @@ int main (){
     cuenta1.Depositar(1000);
     cuenta1.Retirar(500);
     cuenta1.Depositar(1000);
-    cuenta1.Retirar(1200);
+    cuenta1.Depositar(1200);
 
     cout << "En cuenta1 hay: " << cuenta1.ObtenerSaldo() << endl;
 
@@ -18,7 +18,7 @@ int main (){
     cuenta2.Depositar(500);
     cuenta2.Retirar(1000);
     cuenta2.Depositar(1200);
-    cuenta2.Retirar(1000);
+    cuenta2.Depositar(1000);
 
     cout << "En cuenta2 hay: " << cuenta2.ObtenerSaldo() << endl;
 
