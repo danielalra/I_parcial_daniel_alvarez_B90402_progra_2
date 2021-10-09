@@ -38,6 +38,7 @@ void ListaInfinita::AgregarElementoAlFinal(int valor) {
     if (this->primero == nullptr)
     {    
         this->primero = nuevoNodo;
+        this->primero->siguiente = this->primero;
         return;
     }
     // Iterar sobre los nodos hasta llegar al último
@@ -46,7 +47,6 @@ void ListaInfinita::AgregarElementoAlFinal(int valor) {
     // Iterar hasta el final de la lista (siguiente es el primero)
     while (iterador->siguiente != this->primero)
     {
-        cout << "entro" << endl;
         iterador = iterador->siguiente;
     }
 

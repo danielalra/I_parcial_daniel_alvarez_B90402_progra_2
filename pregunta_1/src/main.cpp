@@ -12,7 +12,7 @@ int main (){
    lista.AgregarElementoAlFinal(4);
    lista.AgregarElementoAlFinal(5);
 
-   //cout << lista <<endl;
+   cout << lista <<endl;
 
    //delete lista;
 
